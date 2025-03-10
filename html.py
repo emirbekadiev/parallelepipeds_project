@@ -106,7 +106,7 @@ def generate_html():
     </body>
     </html>
     """
-    with open("data_summary.html", "w") as file:
+    with open("outputs/data_summary.html", "w") as file:
         file.write(html_content)
 
 # Run function to generate HTML
